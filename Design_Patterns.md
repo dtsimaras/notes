@@ -11,6 +11,35 @@ A useful external resource for studying design patterns:
 
 ---
 
+## Table of Contents
+- [Design Principles](#design-principles)
+- [1. Strategy Pattern](#1-strategy-pattern)
+- [2. Observer Pattern](#2-observer-pattern)
+- [3. Decorator Pattern](#3-decorator-pattern)
+- [4. Factory Pattern](#4-factory-pattern)
+
+
+---
+
+## Pattern Types
+
+Design patterns are typically grouped into three categories based on their purpose:
+
+- **Creational Patterns**  
+  Handle object creation mechanisms, aiming to make a system independent of how its objects are created, composed, and represented.  
+  > Examples: *Factory Method*, *Abstract Factory*, *Singleton*
+
+- **Structural Patterns**  
+  Focus on how classes and objects are composed to form larger structures. These patterns help ensure flexibility and maintainability in system architecture.  
+  > Examples: *Decorator*, *Adapter*, *Composite*
+
+- **Behavioral Patterns**  
+  Concerned with how objects interact and communicate. These patterns assign responsibilities among objects to improve flexibility in communication.  
+  > Examples: *Strategy*, *Observer*, *Command*
+
+---
+
+
 ## Design Principles
 
 - **Encapsulate what varies**  
@@ -35,7 +64,7 @@ A useful external resource for studying design patterns:
 
 ## Design Patterns
 
-### 1. Strategy Pattern
+### 1. Strategy Pattern *(Behavioral)*
 
 > Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
 
@@ -78,7 +107,7 @@ A useful external resource for studying design patterns:
 
 ---
 
-### 2. Observer Pattern
+### 2. Observer Pattern *(Behavioral)*
 
 > Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
 
@@ -110,7 +139,7 @@ A useful external resource for studying design patterns:
 
 ---
 
-### 3. Decorator Pattern
+### 3. Decorator Pattern *(Structural)*
 
 > Attach additional responsibilities to an object dynamically, providing a flexible alternative to subclassing for extending functionality.
 
@@ -151,7 +180,7 @@ A useful external resource for studying design patterns:
 
 ---
 
-### 4. Factory Pattern
+### 4. Factory Pattern *(Creational)*
 
 > Define an interface for creating an object, but let subclasses decide which class to instantiate.
 
